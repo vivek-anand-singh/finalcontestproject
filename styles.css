@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vw;
+}
+nav img{
+    size: 1000px;
+}
+#thoughts{
+    border: none;
+}
+
+#leftside h2{
+    margin: 2vw;
+
+}
+
+textarea{
+    width: 85%;
+    height: 10vw;
+}
+#leftside img{
+    float: left;
+}
+#typer{
+    margin: 3%;
+
+}
+#leftside{
+    background-color: aquamarine;
+    /* display: inline; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#left-right{
+    display:flex
+}
+
+#rightside{
+    margin: 3%;
+
+}
+#tweet1{
+    border:10vw;
+    border-color: black;
+}
+
+#tweet1-head{
+    display:flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
