@@ -1,42 +1,47 @@
-<!DOCTYPE html
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport"="width=devicewidth, initial-=1.0">
-    <title>Scaler Social</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scaler School Handle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <nav>
-        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/033/original/SST_Logo.png?1706888781">
-        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764">
+        <div class="nav-img-1">
+            <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/033/original/SST_Logo.png?1706888781" alt="Scaler logo" >
+        </div>
+        <div class="nav-img-2">    
+            <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764" alt="" >
+        </div>
     </nav>
-    <div id="left-right">
-    <div id="leftside">
-        <h2>Post your thoughts here</h2>
-        <div id="typer">
-            <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739">
-            <textarea id="thoughts" name="Type your thoughts here..." rows="4" cols="50" maxlength="100">
-            </textarea>
-            <div id="the-count">
-                <span id="current">0</span>
-                <span id="maximum">/100</span>
-            </div>
-            <button id="post">Post</button>
+    <hr class="navline">
+    <div class="leftandright">
+        <div class="left-side">
+            <div class="left-content">
+                <h2>Post Your Thoughts here!</h2>
+                <div class="posting-block">
+                    <div class="posting">
+                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="posting logo"> 
+                        <textarea rows="10" cols="50"  placeholder ="Type your thoughts here....." class="textarea-posting"  maxlength="100"></textarea>  
+                    </div>
+                    <div class="word-count-button">
+                        <p><span id="char-count">0</span>/100</p>
+                        <button onclick="post()" class="post-button">Post</button>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="right">
+            <h2>Your Feed</h2>
+            
         </div>
     </div>
-    <div id="rightside">
-        <h2>Your Feed</h2> 
-        <div id="tweet1">
-            <div id="tweet1-head">
-                <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739">
-                <h3>Joanne Graham <span>@Joannedgraham123</span> </h3>
-            </div>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aspernatur dignissimos at suscipit</p>
-        </div>
-    </div>
-    </div>
+    
+    
+    
+</body>
+</html>
 
     <script src="index.js"></script>
 </body>
